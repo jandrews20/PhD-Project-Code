@@ -1,4 +1,5 @@
 import torch
+import pandas
 from denoising_diffusion_pytorch import Unet1D, GaussianDiffusion1D, Trainer1D, Dataset1D
 if __name__ == '__main__':
     model = Unet1D(
