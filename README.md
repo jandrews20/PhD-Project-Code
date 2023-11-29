@@ -3,6 +3,7 @@ Week of 28/11/2023
 
 - Trained LGBM Classifier on Ember Byte Histograms successfully.
 - Classification accuracy of 94%, which is significantly higher than the literature specified (68%)
+  - Edit: Found that they used a classification threshold to minimise FPR to less than 0.1%, I achieved this with a threshold of 90% but the classification accuracy was still higher than the literature specified, achieving an accuracy of 84%
 - Model file saved for later access
 
 Week of 23/10/2023
