@@ -1,4 +1,9 @@
 # PhD Project Code
+Week of 05/12/2023
+
+- Trained conditioned diffusion model on MNIST dataset to test
+- Attempted to implement conditioning on 1D model but have not been successful yet
+
 Week of 28/11/2023
 
 - Trained LGBM Classifier on Ember Byte Histograms successfully.
