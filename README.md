@@ -1,4 +1,9 @@
 # PhD Project Code
+Week of 09/01/2024
+
+- Adapted diffusion model to accept 1D vectors
+- Flattened MNIST to use as training data to test 1D implementation, successfully trains but the samples are not of high quality. Possibly due to the fact that the vector lacks context of neighbouring pixels. However, the backgrounds of the generated samples are the right black and the model can produce samples that look somewhat like the label.
+
 Week of 05/12/2023
 
 - Trained conditioned diffusion model on MNIST dataset to test
