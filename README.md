@@ -4,7 +4,7 @@ Weeks from 15/01/2024 - 19/02/2024
 
 - Experimented with MNIST 1D generation to attempt to improve sample quality. Experiments including using spacial embedding as additional channels during training and attempting to use the 2D model to learn 1D MNIST data by padding the 1D data to make an image. These experiments did not improve sample quality.
 - Improving hyperparameter selection massively improved sample quality of 1D MNIST images
-- Moved on to learning real malware data from the ember dataset. Normalised ember histograms between 0 and 1 and then further normalised data to fall between -1 and 1, to follow literature on diffusion training. Training obtained values that fell outside of the distribution of data so any values less than -1 were rounded. Samples look good but quality will have to be further assessed. 
+- Moved on to learning real malware data from the ember dataset. Normalised ember histograms between 0 and 1 and then further normalised data to fall between -1 and 1, to follow literature on diffusion training. Training obtained values that fell outside of the distribution of data, any values less than -1, were rounded. Samples look good at a glance but quality will have to be further assessed. 
 
 Week of 09/01/2024
 
