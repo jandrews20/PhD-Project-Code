@@ -1,5 +1,10 @@
 # PhD Project Code
+Weeks from 19/02/2024 - 08/04/2024
 
+- Further developments on Malware Diffusion model. Sample quality is alright but requires work. We have moved onto assessing the quality of the malware samples using an LGBM classifier trained on real data. Highest classification accuracy achieved is 88% (80% benign, 94% malware). Work needs to be done before generative classifier can be constructed.
+- VAE for Malware Simplification has been developed and trained to simplify the malware data down to a more abstract latent dimension. Current obtained loss is around 5.4 per sample. Once satisfactory the entire dataset will be converted to latents, a diffusion model will be trained and the samples will be converted back.
+- Code added for generation of loss plots, evaluation of generative model sample quality and training new LGBM models on different datasets.
+  
 Weeks from 15/01/2024 - 19/02/2024
 
 - Experimented with MNIST 1D generation to attempt to improve sample quality. Experiments including using spacial embedding as additional channels during training and attempting to use the 2D model to learn 1D MNIST data by padding the 1D data to make an image. These experiments did not improve sample quality.
