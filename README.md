@@ -1,4 +1,9 @@
 # PhD Project Code
+
+Weeks from 15/04/2024 - 20/05/2024
+- Implemented classifier free guidance on diffusion model. Massive increase in quality, 99.4% accurate classification by LGBM on 200k samples.
+- Diffusion Classifier Implementations for 2D and 1D. Excellent on MNIST and MNIST Fashion. Middling on Malware samples, working on potential new conditioning methods to increase diversity.
+
 Weeks from 19/02/2024 - 08/04/2024
 
 - Further developments on Malware Diffusion model. Sample quality is alright but requires work. We have moved onto assessing the quality of the malware samples using an LGBM classifier trained on real data. Highest classification accuracy achieved is 88% (80% benign, 94% malware). Work needs to be done before generative classifier can be constructed.
